@@ -17,6 +17,7 @@ public class LiftTest extends LinearOpMode {
         ROVER.init(hardwareMap);
 
         waitForStart();
+        int i = 6;
 
         sleep(500);
         ROVER.ext.setPower(1);
